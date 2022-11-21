@@ -1377,9 +1377,27 @@ footer{
         width: 59%;
     }
 
+    .price-banner {
+        padding-left: 40px;
+        padding-bottom: 390px;
+        align-items: center;
+    }
 
+    .price::after {
+        bottom: -385px;
+        right: 46px;
+        height: 100%;
+        width: 354px;
+    }
 
+    .price-title {
+     margin-right: 0;
+    }
 
+    .price-right {
+        margin-left: 0;
+        align-items: center;
+    }
 
 
 
@@ -1816,7 +1834,7 @@ main {
 
 
 .price::after {
-    bottom: -18px;
+    bottom: -3px;
     right: 8px;
     height: 47%;
     width: 291px;
