@@ -69,4 +69,13 @@ document.addEventListener('DOMContentLoaded',function(){
       openBurger2.addEventListener('click', function(){
         burger.classList.remove('display-none')
       })
+
+
+      const burgerMenu = document.querySelector('.category-left')
+      const burgerBtn = document.querySelector('.open-right__menu')
+
+      burgerBtn.addEventListener('click',()=>{
+        burgerBtn.classList.toggle('openedBurger')
+        burgerMenu.classList.toggle('active-burger')
+      })
 })
