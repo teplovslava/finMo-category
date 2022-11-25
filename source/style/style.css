@@ -240,6 +240,10 @@ header{
     margin-right: 9px;
 }
 
+.swiper2{
+    display: none;
+}
+
 .logo-name{
     width: 141px;
 }
@@ -264,6 +268,9 @@ header{
     line-height: 130%;
 }
 
+.category-right__title-dop{
+    display: none;
+}
 
 .header-bottom{
     align-items: center;
@@ -368,6 +375,11 @@ header{
     font-size: 10px;
     line-height: 120%;
     align-items: flex-end;
+}
+
+
+.swiper-btn2{
+    display: none;
 }
 
 .card img{
@@ -2008,10 +2020,18 @@ display: none;
         display: none;
     }
 
-    .swiper {
-        position: absolute;
-        bottom: 2918px;
-        right: 17%;
+    .swiper2 {
+        display: block;
+    }
+
+    .category-right__title-dop{
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 16px;
     }
 
 .swiper-btn {
@@ -2025,8 +2045,27 @@ display: none;
     width: 100%;
 }
 
+.swiper-btn2{
+    display: block;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 17px;
+    width: 268px;
+    margin: 0 auto;
+    background: #0036F8;
+    border-radius: 6px;
+    margin-bottom: 60px;
+}
+
+.questions__list-name {
+    font-size: 10px;
+    padding-right: 36px;
+}
+
 .category-right__list{
-    margin-bottom: 504px;
+    margin-bottom: 45px;
 }
 
 .swiper-button-prev {
